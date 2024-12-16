@@ -1,0 +1,13 @@
+/node_modules
+/src/bundle.js
+junit.xml
+.idea!/.github/
+!/.github/**
+!/.github/
+!/.github/**
+!/.github/
+!/.github/**
+!/.github/
+!/.github/**
+!/.github/
+!/.github/**

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Blog Layout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+      type="module"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"
+    ></script>
+  </head>
+
+  <body>
+    <!--HTML content goes here-->
+    <h8k-navbar header="Responsive Blog Post"></h8k-navbar>
+
+    <main class="main">
+      <div class="grid-container">
+        <aside class="sidebar left-sidebar">
+          <nav>
+            <ul>
+              <li><a class="nav-item" href="#">Home</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <main class="all-posts">
+          <article class="post">
+            <h2>Blog Post Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              venenatis nulla at ligula vehicula, nec egestas odio vehicula.
+            </p>
+          </article>
+          <article class="post">
+            <h2>Another Post</h2>
+            <p>
+              Sed non urna vitae augue gravida euismod. Nullam convallis orci a
+              sapien convallis, non posuere nisl mollis.
+            </p>
+          </article>
+        </main>
+        <aside class="sidebar right-sidebar">
+          <div>
+            <h3>Sponsored</h3>
+            <p>Ad content goes here.</p>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </body>
+  <!-- HMR and test infrastructure - DO NOT EDIT -->
+  <script src="./bundle.js"></script>
+</html>
